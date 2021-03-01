@@ -1,0 +1,13 @@
+<suite name="listenerSuite">
+    <listeners>
+        <listener class-name="testinglisteners.TestngListener">
+
+        </listener>
+    </listeners>
+    <test name="listenerTest">
+        <classes>
+            <class name="testinglisteners.LoginTest">
+            </class>
+        </classes>
+    </test>
+</suite>
